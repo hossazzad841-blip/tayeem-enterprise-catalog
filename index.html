@@ -5,7 +5,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#123b32">
 <title>M/S TAYEEM ENTERPRISE DHAKA</title>
-<style>
+ /* Mobile responsive fix */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.products {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 650px) {
+  .products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .products {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}<style>
 :root{--green:#123b32;--gold:#e5b94f;--light:#f5f7f4}
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,"Noto Sans Bengali",sans-serif;background:var(--light);color:#202820}
@@ -47,7 +93,53 @@ footer{background:#123b32;color:white;text-align:center;padding:24px 14px;margin
 a{color:inherit}
 @media(min-width:650px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}header h1{font-size:28px}.hero{padding:32px}.producticon{height:110px}}
 @media(min-width:900px){.products{grid-template-columns:repeat(4,minmax(0,1fr))}}
-</style>
+/* Mobile responsive fix */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.products {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 650px) {
+  .products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .products {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  }</style>
 </head>
 <body>
 <header>
